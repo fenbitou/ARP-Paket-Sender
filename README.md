@@ -6,7 +6,7 @@ ARPPacketSender一个基于[SharpPcap](https://github.com/chmorgan/sharppcap)框
 
 你可以自定义发包间隔，ARPPacketSender会记录发包个数。
 
-请注意，本发包器是为了某计算机网络实验匆促完成，功能非常简单，对填入的字段并没有进行格式校验。
+本发包器是为了某计算机网络实验匆促完成，功能非常简单，对填入的字段并没有进行格式校验。
 
 ARPPacketSender基于[SharpPcap](https://github.com/chmorgan/sharppcap)框架，在使用之前你需要安装[SharpPcap](https://github.com/chmorgan/sharppcap)以及[Winpcap](https://github.com/wireshark/winpcap).
 
@@ -14,7 +14,5 @@ ARPPacketSender基于[SharpPcap](https://github.com/chmorgan/sharppcap)框架，
 
 A simple ARP packet sender
 ===
-ARPPacketSender is a simple ARP packet sender based on the [SharpPcap](https://github.com/chmorgan/sharppcap) framework. You can construct a basic ARP Packet the you 
-which the source MAC address and destination MAC address of an Ethernet packet header ,the source MAC address and destination MAC address of the ARP frame, the source IP address and the destination IP address,
-
+ARPPacketSender is a simple ARP packet sender based on the [SharpPcap](https://github.com/chmorgan/sharppcap) framework.
 
