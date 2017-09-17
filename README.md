@@ -1,9 +1,9 @@
 一个简单的ARP发包器
 ===
-ARPPacketSender是一个基于[SharpPcap](https://github.com/chmorgan/sharppcap)框架的简单的ARP发包器。  
+ARPPacketSender是一个基于[SharpPcap](https://github.com/chmorgan/sharppcap)框架的ARP发包器。  
 你可以自定义一个ARP报文的主要字段，构造并连续发送ARP包。
 
-默认情况下，发包器会将本机的IPv4地址和MAC地址填入源主机的相应字段中。  
+默认情况下，发包器将本机的IPv4地址和MAC地址填入源主机的相应字段中。  
 你还可以自定义发包间隔，它会记录发包个数。
 
 本发包器是为了某计算机网络实验匆促完成，功能非常简单，对填入的字段并没有进行格式校验。
